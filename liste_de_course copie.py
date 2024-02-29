@@ -11,8 +11,7 @@ MENU = """Choisissez parmi les 5 options suivantes :
 ? Votre choix : """
 
 MENU_CHOICES = ["1", "2", "3", "4", "5"]
-
-
+a = input("entrer votre numero de commande : ")
 
 while True:
     user_choice = input(MENU)
